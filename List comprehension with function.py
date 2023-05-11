@@ -3,6 +3,7 @@
 def get_higher_price(percent, price):
     return round(price * (1 + percent / 100), 2)
 
+
 current_prices = [1.8, 12.65, 56.23, 931.11]
 first_percent = int(input('Enter % rate in 1st year: '))
 second_percent = int(input('Enter % rate in 2nd year: '))

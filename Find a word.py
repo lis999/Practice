@@ -8,6 +8,7 @@ if you can't find one of the letters using the index numbers, return "No mission
 Example: input: [5, 0, 3], "I Love You" output: "ivy" (0 = "i", 3 = "v", 5 = "y")
 """
 
+
 def missing(nums, s):
     s = s.replace(' ', '').lower()
     s1 = ''
